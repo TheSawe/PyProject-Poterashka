@@ -18,7 +18,7 @@ class MainWindow(QWidget):
         self.find_text.setPlaceholderText('Фамилия Имя')
         self.find_text.returnPressed.connect(lambda: self.find_pupil())
         self.sendButton = QPushButton('Найти', self)
-        self.sendButton.setGeometry(QRect(510, 10, 75, 23))
+        self.sendButton.setGeometry(QRect(510, 28, 75, 23))
         self.sendButton.clicked.connect(lambda: self.find_pupil())
         self.sendButton.setCursor(Qt.CursorShape.PointingHandCursor)
         self.dark_theme = QPushButton('', self)
