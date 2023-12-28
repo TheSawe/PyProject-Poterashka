@@ -51,7 +51,7 @@ class MainWindow(QWidget):
             self.setStyleSheet('background-color: #18181b;')
             self.conclusion.setStyleSheet(
                 "QPlainTextEdit {background-color: #18181b; border: none; text-align: center; color: #fff;}")
-            self.find_text.setStyleSheet("QLineEdit{color: #fff; border-radius: 5px;}")
+            self.find_text.setStyleSheet("QLineEdit{color: #fff; border-radius: 5px; background-color: #393939;}")
             self.sendButton.setStyleSheet("QPushButton{background-color: #f0f0f0; border-radius: 5px;}")
             self.listView.setStyleSheet("QListWidget{background-color: #393939; color: #f0f0f0; border-radius: 5px;}")
             self.dark_theme.setStyleSheet("QPushButton{background-color: #fff; border-radius: 5px;}")
@@ -62,7 +62,7 @@ class MainWindow(QWidget):
             self.setStyleSheet('background-color: #f0f0f0;')
             self.conclusion.setStyleSheet(
                 "QPlainTextEdit {background-color: #f0f0f0; border: none; text-align: center; color: #000;}")
-            self.find_text.setStyleSheet("QLineEdit{color: #000; border-radius: 5px;}")
+            self.find_text.setStyleSheet("QLineEdit{color: #000; border-radius: 5px; background-color: #fafafa;}")
             self.sendButton.setStyleSheet("QPushButton{background-color: #fff; border-radius: 5px;}")
             self.listView.setStyleSheet(
                 "QListWidget{background-color: #fff; color: #000; border-radius: 5px; border: 0px solid #000;}")
